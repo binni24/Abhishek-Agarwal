@@ -1,0 +1,43 @@
+h1 {
+    color: #22423d;
+    font-size: 6.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    
+    font-weight: bold;
+}
+
+h2{
+    color: #22423d;
+}
+
+body {
+    color: #0cffd2;
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+   
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+
+
+  
+ 
